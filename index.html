@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alamo City Locksmith | San Antonio, TX 24/7 Emergency Locksmith</title>
-<meta name="description" content="San Antonio, TX locksmith serving Bexar County and the Alamo City 24/7. Car lockouts, home rekeying, keys, commercial locks and emergency dispatch across San Antonio, Stone Oak, Alamo Heights, Helotes &amp; Schertz — average 20-minute response.">
+<title>Car Unlock Service San Antonio, TX | Alamo City Locksmith</title>
+<meta name="description" content="Locked out of your car in San Antonio? Call Alamo City Locksmith for mobile vehicle unlock service, car key help and automotive locksmith assistance across Bexar County.">
 <link rel="canonical" href="https://alamocitylocksmith.com/">
 <meta name="robots" content="index, follow">
 <meta name="geo.region" content="US-TX">
@@ -13,14 +13,18 @@
 <meta name="ICBM" content="29.4241, -98.4936">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Alamo City Locksmith | San Antonio, TX 24/7 Emergency Locksmith">
-<meta property="og:description" content="Licensed, bonded &amp; insured locksmiths serving San Antonio, Bexar County and the Alamo City 24/7. Automotive, residential &amp; commercial locksmith services with an average 20-minute response time.">
+<meta property="og:title" content="Car Unlock Service San Antonio | Alamo City Locksmith">
+<meta property="og:description" content="Mobile car unlock and automotive locksmith service throughout San Antonio and Bexar County. Call (210) 716-0211.">
 <meta property="og:url" content="https://alamocitylocksmith.com/">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Alamo City Locksmith">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Alamo City Locksmith | San Antonio, TX 24/7 Emergency Locksmith">
-<meta name="twitter:description" content="Licensed San Antonio and Bexar County locksmith available 24/7. Avg. 20 min response across the Alamo City and surrounding suburbs.">
+<meta property="og:image" content="https://alamocitylocksmith.com/alamo-city-locksmith-logo.png">
+<meta property="og:image:alt" content="Alamo City Locksmith automotive lockout logo">
+<meta name="twitter:image" content="https://alamocitylocksmith.com/alamo-city-locksmith-logo.png">
+<link rel="icon" type="image/png" href="/alamo-city-locksmith-logo.png">
+<meta name="twitter:title" content="Car Unlock Service San Antonio | Alamo City Locksmith">
+<meta name="twitter:description" content="Mobile vehicle unlock and automotive locksmith help across San Antonio and Bexar County.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -30,7 +34,7 @@
   "@context": "https://schema.org",
   "@type": "Locksmith",
   "name": "Alamo City Locksmith",
-  "image": "https://alamocitylocksmith.com/og-image.png",
+  "image": "https://alamocitylocksmith.com/alamo-city-locksmith-logo.png",
   "url": "https://alamocitylocksmith.com/",
   "telephone": "+1-210-716-0211",
   "priceRange": "$$",
@@ -59,11 +63,6 @@
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
     "opens": "00:00",
     "closes": "23:59"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "1200"
   },
   "sameAs": []
 }
@@ -161,8 +160,8 @@
     display:flex; align-items:center; gap:12px;
     color:var(--white);
   }
-  .brand .mark{
-    width:38px;height:38px;flex:none;
+  .brand .brand-logo{
+    width:58px;height:58px;object-fit:contain;flex:none;
   }
   .brand .name{
     font-family:'Fraunces', serif;
@@ -280,13 +279,14 @@
     position:relative;
     height:420px;
   }
-  .keyhole-svg{
+  .hero-logo{
     position:absolute;
-    right:-40px;
+    right:0;
     top:50%;
     transform:translateY(-50%);
-    width:520px;
-    opacity:0.9;
+    width:min(100%,430px);
+    height:auto;
+    filter:drop-shadow(0 24px 30px rgba(0,0,0,.28));
   }
 
   /* ---- Trust strip ---- */
@@ -557,7 +557,7 @@
 
 <div class="topbar">
   <div class="wrap">
-    <span>Licensed, bonded &amp; insured &nbsp;·&nbsp; Serving Greater San Antonio, TX</span>
+    <span>Mobile vehicle unlock service &nbsp;·&nbsp; San Antonio &amp; Bexar County</span>
     <a class="phone" href="tel:12107160211">(210) 716-0211</a>
   </div>
 </div>
@@ -565,19 +565,13 @@
 <header class="site">
   <nav class="wrap">
     <a class="brand" href="/">
-      <svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="24" cy="24" r="23" stroke="#B8894A" stroke-width="2"/>
-        <circle cx="24" cy="18" r="6.5" stroke="#B8894A" stroke-width="2.2"/>
-        <path d="M24 24.5V33" stroke="#B8894A" stroke-width="2.2" stroke-linecap="round"/>
-        <path d="M20 29H28" stroke="#B8894A" stroke-width="2.2" stroke-linecap="round"/>
-      </svg>
+      <img class="brand-logo" src="/alamo-city-locksmith-logo.png" alt="" width="58" height="58">
       <span class="name">Alamo City<small>LOCKSMITH</small></span>
     </a>
     <div class="navlinks">
       <a href="#services">Services</a>
       <a href="#process">How It Works</a>
       <a href="#coverage">Coverage Area</a>
-      <a href="#reviews">Reviews</a>
     </div>
     <div class="navcta">
       <a class="cta-btn" href="#book">Request Service</a>
@@ -588,9 +582,9 @@
 <section class="hero" id="top">
   <div class="wrap">
     <div>
-      <span class="eyebrow">SAN ANTONIO'S 24/7 EMERGENCY LOCKSMITH</span>
-      <h1>San Antonio locksmiths.<br>We're already <em>on our way.</em></h1>
-      <p class="lede">Need a locksmith in San Antonio, TX? Our automotive, residential, and commercial technicians are dispatched across the Alamo City and Bexar County in as little as 20 minutes — day, night, and holidays included.</p>
+      <span class="eyebrow">SAN ANTONIO VEHICLE UNLOCK SERVICE</span>
+      <h1>Locked out of your car?<br>Call for <em>mobile help.</em></h1>
+      <p class="lede">Alamo City Locksmith focuses on vehicle unlocks across San Antonio and Bexar County. Call with your location, vehicle year, make and model to confirm availability, pricing and the expected arrival window.</p>
       <div class="hero-actions">
         <a class="call-btn" href="tel:12107160211">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .5 1 1v3.5c0 .6-.4 1-1 1C10.7 21.1 2.9 13.3 2.9 3.1c0-.6.5-1 1-1H7.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1L6.6 10.8z" fill="white"/></svg>
@@ -599,27 +593,23 @@
         <a class="secondary-link" href="#book">Request service online →</a>
       </div>
       <div class="hero-stats">
-        <div><strong>20 min</strong><span>Avg. arrival time</span></div>
-        <div><strong>24/7</strong><span>Every day, all year</span></div>
-        <div><strong>4.9★</strong><span>1,200+ local reviews</span></div>
+        <div><strong>Mobile</strong><span>Service at your vehicle</span></div>
+        <div><strong>Local</strong><span>San Antonio coverage</span></div>
+        <div><strong>Auto</strong><span>Vehicle lockout focus</span></div>
       </div>
     </div>
     <div class="hero-visual">
-      <svg class="keyhole-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="200" cy="150" r="70" stroke="#B8894A" stroke-width="1.5" opacity="0.55"/>
-        <path d="M175 210 L225 210 L245 340 L155 340 Z" stroke="#B8894A" stroke-width="1.5" opacity="0.55"/>
-        <circle cx="200" cy="150" r="30" fill="#B8894A" opacity="0.15"/>
-      </svg>
+      <img class="hero-logo" src="/alamo-city-locksmith-logo.png" alt="Alamo City Locksmith vehicle unlock service logo" width="512" height="512">
     </div>
   </div>
 </section>
 
 <div class="trust-strip">
   <div class="wrap">
-    <div class="trust-item"><span class="dot"></span>Background-checked technicians</div>
-    <div class="trust-item"><span class="dot"></span>Upfront, flat-rate pricing</div>
-    <div class="trust-item"><span class="dot"></span>No damage, no drilling guarantee</div>
-    <div class="trust-item"><span class="dot"></span>Fully licensed &amp; insured</div>
+    <div class="trust-item"><span class="dot"></span>Vehicle unlock assistance</div>
+    <div class="trust-item"><span class="dot"></span>Mobile San Antonio service</div>
+    <div class="trust-item"><span class="dot"></span>Pricing confirmed before work</div>
+    <div class="trust-item"><span class="dot"></span>Automotive key help</div>
   </div>
 </div>
 
@@ -627,8 +617,8 @@
   <div class="wrap">
     <div class="section-head">
       <span class="kicker">WHAT WE DO</span>
-      <h2>One team, every kind of lock</h2>
-      <p>Whichever door, car, or panel you're standing in front of, one of our technicians has already fixed it a thousand times before.</p>
+      <h2>Vehicle unlocks are our specialty</h2>
+      <p>Locked keys in the car, lost access, or need automotive key assistance? Start with a call so we can confirm the right service for your vehicle and location.</p>
     </div>
   </div>
   <div class="wrap" style="padding:0;">
@@ -636,7 +626,7 @@
       <div class="service-tag">
         <span class="num">01</span>
         <h3>Automotive</h3>
-        <p>San Antonio car lockouts, key duplication, transponder programming, and ignition repair — no scratches, no shortcuts.</p>
+        <p>Mobile San Antonio vehicle unlocks, car key assistance, transponder programming, broken-key help, and compatible ignition service.</p>
         <a href="automotive-locksmith-san-antonio">See automotive services</a>
       </div>
       <div class="service-tag">
@@ -666,20 +656,20 @@
     <div class="section-head">
       <span class="kicker" style="color:#D8B27C;">HOW IT WORKS</span>
       <h2>From call to unlocked door</h2>
-      <p>No dispatch runaround. Three steps, start to finish.</p>
+      <p>Three clear steps from your call to authorized vehicle access.</p>
     </div>
     <div class="steps">
       <div class="step">
         <h3><span class="step-mark">1</span>Call or book online</h3>
-        <p>Tell us where you are and what's going on. We text you a confirmed arrival window right away.</p>
+        <p>Tell us your location plus the vehicle year, make and model. We will confirm availability and provide an expected arrival window.</p>
       </div>
       <div class="step">
-        <h3><span class="step-mark">2</span>Track your technician</h3>
-        <p>A licensed, background-checked technician is dispatched from the closest available location.</p>
+        <h3><span class="step-mark">2</span>Confirm authorized access</h3>
+        <p>Have identification or proof of authorized vehicle access ready before service begins.</p>
       </div>
       <div class="step">
-        <h3><span class="step-mark">3</span>Pay a flat, upfront rate</h3>
-        <p>You'll know the price before any work starts — no surprise fees when the job is done.</p>
+        <h3><span class="step-mark">3</span>Approve the service</h3>
+        <p>Confirm the quoted price before authorizing the vehicle unlock or key service.</p>
       </div>
     </div>
   </div>
@@ -707,37 +697,10 @@
       </div>
     </div>
     <div class="coverage-panel">
-      <span class="badge">RIGHT NOW</span>
-      <h3 style="font-size:22px;">3 technicians on shift within 10 miles of you</h3>
-      <p style="color:var(--steel);margin-top:12px;font-size:15px;">Average current response time in your area:</p>
-      <p style="font-family:'Fraunces';font-size:42px;color:var(--ink);margin-top:6px;">18–24 min</p>
-      <a class="cta-btn" style="margin-top:20px;display:inline-block;" href="tel:12107160211">Call now</a>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="reviews" style="background:var(--white);">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="kicker">FROM THE NEIGHBORHOOD</span>
-      <h2>What locked-out San Antonio thinks of us</h2>
-    </div>
-    <div class="reviews-row">
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Locked myself out at 11pm with a sleeping toddler in the car seat inside. Technician was there in 15 minutes flat."</p>
-        <div class="who">— Renee T., Alamo Heights</div>
-      </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Quoted me a flat price on the phone and that's exactly what I paid. No upsells, no drilling my new deadbolt."</p>
-        <div class="who">— Marcus D., Stone Oak</div>
-      </div>
-      <div class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Rekeyed our whole office over a lunch break. Professional, fast, and the master key system just makes sense now."</p>
-        <div class="who">— Priya K., Business Owner</div>
-      </div>
+      <span class="badge">VEHICLE LOCKOUT?</span>
+      <h3 style="font-size:22px;">Call with your location and vehicle details</h3>
+      <p style="color:var(--steel);margin-top:12px;font-size:15px;">We will confirm whether mobile service is available at your address and provide an expected arrival window before dispatch.</p>
+      <a class="cta-btn" style="margin-top:20px;display:inline-block;" href="tel:12107160211">Call (210) 716-0211</a>
     </div>
   </div>
 </section>
